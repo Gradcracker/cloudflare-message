@@ -32,13 +32,13 @@
                 width: 80%;
             }
 
-            .title {
+            .display .title {
                 font-size: 72px;
                 margin: 40px 0;
                 color: #f58224;
             }
 
-            p {
+            .display p {
                 color: #fff;
                 font-family: 'Open Sans';
                 font-weight: 100;
@@ -46,7 +46,7 @@
                 font-weight: 400;
             }
 
-            .gradcracker-logo {
+            .display .gradcracker-logo {
                 display: inline-block;
                 margin: 0;
                 font-size: 28px !important;
@@ -56,15 +56,22 @@
                 text-transform: uppercase;
                 letter-spacing: 5px;
             }
+
+            .cf-error-details {
+                font-size: 10px !important;
+                color: #CBD5E0;
+            }
         </style>
     </head>
     <body>
         <div class="container">
             <div class="content">
-                <p class="gradcracker-logo">Gradcracker</p>
-                <div class="title">We'll be right back.</div>
-                <p>The site is currently undergoing maintenance and we hope to be back with you shortly.</p>
-                <p>Sorry for the inconvenience.</p>
+                <div class="display">
+                    <p class="gradcracker-logo">Gradcracker</p>
+                    <div class="title">We'll be right back.</div>
+                    <p>The site is currently undergoing maintenance and we hope to be back with you shortly.</p>
+                    <p>Sorry for the inconvenience.</p>
+                </div>
 
                 <div style="display: none;">::CLOUDFLARE_ERROR_500S_BOX::</div>
             </div>
